@@ -1,4 +1,4 @@
-# Hashy  ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+# Hashy  ![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=Python)
 CLI program for generating hash values for files or strings (i.e. passwords)
 
 ## Table of contents
