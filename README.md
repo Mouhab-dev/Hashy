@@ -1,4 +1,4 @@
-# Hashy
+# Hashy  ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
 
 ## Table of contents
 * [General info](#general-info)
