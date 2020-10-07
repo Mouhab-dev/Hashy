@@ -38,10 +38,11 @@ hashy.py --help
 ```
 A help message will appear with all required arguments the program needs to run:
 ```
-usage: hashy.py [-h] [-v] -hf MD5:SHA1:blake2b [MD5:SHA1:blake2b ...]       
+usage: hashy.py [-h] [-v] -hf MD5:SHA1:blake2b [MD5:SHA1:blake2b ...]
                 (-cf <file path> <file path> | -f <file path> | -s "String")
 
-hashy v1.0 is a CLI program to hash files, strings and databases.
+Hashy is a CLI program to hash files, compare two files (integrity check),
+strings.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -54,7 +55,9 @@ optional arguments:
   -f <file path>        calculate hash for a file using the provided hash
                         function.
   -s "String"           calculate hash for a string using the provided hash
-                        function (string inside " " is a must).
+                        function (string inside " " is recommended).
+
+Find me on Github: https://www.github.com/Mouhab-dev
 ```
 * -hf is essential for the script to run
 * -cf / -f / -s :
