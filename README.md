@@ -62,5 +62,19 @@ only one of the previous arguments followed by the appropriate input is required
 
 ## Test
 
+Tested with a string being hashed with md5,sha1 and sha256 algorithms:
+
+```
+C:\Users\<current user>\Desktop> python hashy.py -hf md5 sha1 sha256 -s "hello world it's hashy here" 
+Hashing string ...
+
+Algorithm:         Hash value:
+------------       --------------------------------------
+md5                ba672a8326b0d3333c7296e73e0ec0ed
+sha1               2e561e67dfe68f64d63204c7e96f0dccaec5cb00
+sha256             eb43f53ec1b2d25c0361574e99b4257a5a84d123f7e265e0434e03789276d460
+
+Process Finished
+```
 
 
