@@ -4,7 +4,7 @@ CLI program for generating hash values for files or strings (i.e. passwords).
 
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Libraries](#libraries)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Test](#test)
@@ -12,19 +12,19 @@ CLI program for generating hash values for files or strings (i.e. passwords).
 ## General info
 This project is a CLI (Command Line Interface) to hash individual files, compare between two files for integrity check or hash strings.
 
-## Technologies
+## Libraries
 Project is created with:
 * hashlib library.
 * argparse library.
 * python 3.6 or higher.
 
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install all the required libraries first then run the python script:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ pip install hashlib
+$ pip install argparse
+$ python hashy.py -hf (hash functions) [-f <file path> | -cf <file path> <file path> | -s <string>]
 ```
 
 ## Usage
@@ -56,7 +56,7 @@ optional arguments:
   -s "String"           calculate hash for a string using the provided hash
                         function (string inside " " is a must).
 ```
-* -hf
+* -hf is essential for the script to run
 * -cf / -f / -s :
 only one of the previous arguments followed by the appropriate input is required to run the script.
 
